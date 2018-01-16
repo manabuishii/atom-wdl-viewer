@@ -1,6 +1,6 @@
 {
   "name": "atom-wdl-viewer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "WDL viewer in Atom",
   "main": "./lib/atom-wdl-viewer",
   "keywords": [
