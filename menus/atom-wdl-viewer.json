@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    ".atom-wdl-viewer": [
+      { "label": "Save As\u2026", "command": "core:save-as" },
+      { "label": "Copy", "command": "core:copy" }
+    ],
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-wdl-viewer",
+        "command": "atom-wdl-viewer:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "WDL Viewer",
+          "submenu": [
+            {
+              "label": "Toggle View",
+              "command": "atom-wdl-viewer:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

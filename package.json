@@ -1,0 +1,26 @@
+{
+  "name": "atom-wdl-viewer",
+  "version": "0.1.0",
+  "description": "WDL viewer in Atom",
+  "main": "./lib/atom-wdl-viewer",
+  "keywords": [
+    "wdl",
+    "viewer",
+    "preview"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manabuishii/atom-wdl-viewer"
+  },
+  "bugs": {
+    "url": "https://github.com/manabuishii/atom-wdl-viewer/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "svg-pan-zoom": "^3.5.1"
+  }
+}
